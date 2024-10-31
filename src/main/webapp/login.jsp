@@ -16,18 +16,38 @@
 				<div class="card">
 					<div class="card-body">
 					<h4 class="text-center text-success">Login Page</h4>
-						<form>
+					
+					<%
+					String InvalidMsg=(String)session.getAttribute("InvalidMsg");
+					if(InvalidMsg!=null)
+					{%>
+						<p class="text-danger text-center"><%=InvalidMsg %></p>
+					<%
+					session.removeAttribute("InvalidMsg");
+					}
+					%>
+					
+					<%
+					String logMsg=(String)session.getAttribute("logMsg");
+					if(logMsg!=null)
+					{%>
+						<p class="text-success text-center"><%=logMsg %></p>
+					<%
+					session.removeAttribute("logMsg");
+					}
+					%>
+						
 							
 						
-						
+						<form action="Login" method="post">
 							<div class="form-group">
-								<label for="exampleInputEmail1">Email address</label> <input
+								<label for="exampleInputEmail1">Email address</label> <input name="email" 
 									type="email" class="form-control" id="exampleInputEmail1"
 									aria-describedby="emailHelp" >
 								
 							</div>
 							<div class="form-group">
-								<label for="exampleInputPassword1">Password</label> <input
+								<label for="exampleInputPassword1">Password</label> <input name="password"
 									type="password" class="form-control" id="exampleInputPassword1"
 									>
 							<div class="text-center mt-2">
