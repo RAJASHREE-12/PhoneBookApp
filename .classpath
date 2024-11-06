@@ -13,12 +13,12 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/asus/Downloads/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0.jar">
+	<classpathentry kind="lib" path="C:/Users/lipsa nayak/Downloads/apache-tomcat-9.0.91-windows-x64/apache-tomcat-9.0.91/apache-tomcat-9.0.89/wtpwebapps/PhoneBookApp/WEB-INF/lib/mysql-connector-j-9.0.0.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/asus/Downloads/new/apache-tomcat-9.0.89/lib/servlet-api.jar">
+	<classpathentry kind="lib" path="C:/Users/lipsa nayak/Downloads/apache-tomcat-9.0.91-windows-x64/apache-tomcat-9.0.91/apache-tomcat-9.0.89/wtpwebapps/PhoneBookApp/WEB-INF/lib/servlet-api.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
